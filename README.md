@@ -250,3 +250,6 @@ def test_module_correct():
 def test_module_incorrect():
     assert add_numbers(2,3) != 0
 ```
+
+
+![BuildStatus](https://github.com/<slichtarge>/<HW1-FAST-AQ-Parser>/actions/workflows/main.yml/badge.svg?event=push)

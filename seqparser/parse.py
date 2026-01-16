@@ -30,7 +30,7 @@ class Parser:
 
     def get_record(
         self, f_obj: io.TextIOWrapper
-    ) -> Union[Tuple[str, str], Tuple[str, str, str]]:
+    ) -> Union[Tuple[str, str], Tuple[str, str, str]]: #the Union is saying "I will return a Tuple of either 2 or 3 strings"
         """
         Returns a sequencing record that will either be a tuple of two strings (header, sequence)
         or a tuple of three strings (header, sequence, quality).
